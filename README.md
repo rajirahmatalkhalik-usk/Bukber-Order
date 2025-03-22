@@ -1,32 +1,32 @@
 # Bukber-Order
 
 ## Deskripsi
-Bukber-Order adalah program berbasis C yang dirancang untuk membantu pengguna dalam memesan, mengelola, dan membayar paket berbuka puasa dengan berbagai pilihan makanan dan minuman secara interaktif. Program ini dibuat sebagai tugas kelompok dalam mata kuliah **Pemrograman 1**, dengan tujuan mengimplementasikan konsep **looping, seleksi percabangan, dan fungsi** dalam sebuah program sederhana yang memiliki minimal 5 menu dan berjalan hingga menu 'Exit' dipilih.
+Bukber-Order adalah program berbasis C yang memungkinkan pengguna untuk melakukan pemesanan paket berbuka puasa dengan berbagai pilihan makanan dan minuman. Program ini memiliki fitur untuk menambahkan, menghapus, melihat informasi pesanan, dan melakukan pembayaran.
 
 ## Fitur Program
-1. **Tambah Pesanan** - Memungkinkan pengguna untuk memilih dan menambahkan pesanan paket makanan dan minuman.
-2. **Hapus Pesanan** - Menghapus pesanan tertentu yang telah dimasukkan.
-3. **Info Pesanan** - Menampilkan daftar pesanan yang telah dibuat beserta total harga.
-4. **Pembayaran** - Memproses pembayaran berdasarkan total harga pesanan dan menampilkan kembalian jika ada.
-5. **Exit** - Mengakhiri program setelah semua pesanan selesai diproses.
+1. **Tambah Pesanan** - Pengguna dapat menambahkan pesanan dengan memilih paket makanan dan minuman.
+2. **Hapus Pesanan** - Menghapus pesanan yang telah ditambahkan sebelumnya.
+3. **Info Pesanan** - Menampilkan daftar pesanan yang sudah dilakukan beserta total harga.
+4. **Pembayaran** - Memproses pembayaran berdasarkan total harga pesanan.
+5. **Exit** - Keluar dari program.
 
 ## Cara Penggunaan
 1. Jalankan program Bukber-Order.
 2. Pilih opsi dari menu utama:
-   - **1** untuk menambahkan pesanan.
-   - **2** untuk menghapus pesanan.
-   - **3** untuk melihat informasi pesanan.
-   - **4** untuk melakukan pembayaran.
-   - **5** untuk keluar dari program.
+   - Ketik angka 1 untuk menambahkan pesanan.
+   - Ketik angka 2 untuk menghapus pesanan.
+   - Ketik angka 3 untuk melihat informasi pesanan.
+   - Ketik angka 4 untuk melakukan pembayaran.
+   - Ketik angka 5 untuk keluar dari program.
 3. Ikuti instruksi yang diberikan oleh program.
-4. Pastikan memasukkan input yang valid untuk menghindari kesalahan.
+4. Jika melakukan pembayaran, pastikan jumlah yang dibayarkan mencukupi agar transaksi berhasil.
 
 ## Struktur Data yang Digunakan
-- **Struct `Pesanan`** untuk menyimpan informasi setiap pesanan, yang terdiri dari:
+- **Struct `Pesanan`** digunakan untuk menyimpan informasi pesanan yang terdiri dari:
   - `paket` (jenis paket makanan yang dipilih)
   - `minuman` (jenis minuman yang dipilih)
   - `jumlah` (jumlah pesanan)
-- **Array `daftarPesanan`** untuk menyimpan hingga **16 pesanan** secara bersamaan.
+- **Array `daftarPesanan`** untuk menyimpan daftar pesanan hingga batas maksimal 16 pesanan.
 
 ## Contoh Penggunaan
 ```
@@ -42,13 +42,12 @@ Pesanan anda: Paket Ayam Nusantara (Es jeruk) sebanyak 2 pesanan, berhasil ditam
 ```
 
 ## Syarat dan Batasan
-- Maksimal **16 pesanan** yang dapat dimasukkan dalam satu sesi.
-- Tersedia **5 paket makanan** dan **3 jenis minuman**.
-- Pembayaran harus dilakukan dengan jumlah yang mencukupi atau lebih besar dari total harga.
+- Maksimal 16 pesanan dapat dimasukkan.
+- Hanya tersedia 5 paket makanan dan 3 jenis minuman.
+- Pembayaran harus dilakukan dengan jumlah yang cukup atau lebih besar dari total harga pesanan.
 
 ## Lisensi
-Program ini dibuat untuk keperluan edukasi dalam mata kuliah Pemrograman 1 dan dapat dimodifikasi sesuai kebutuhan.
+Program ini dibuat untuk keperluan edukasi dan bebas digunakan serta dimodifikasi sesuai kebutuhan.
 
 ---
-Dibuat oleh **Kelompok Tugas Pemrograman 1** untuk mengasah pemahaman dalam implementasi dasar pemrograman C.
-
+Dibuat dengan ❤️ untuk membantu pemesanan berbuka puasa dengan mudah!
