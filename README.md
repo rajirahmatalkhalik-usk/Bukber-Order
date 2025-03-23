@@ -26,8 +26,7 @@ Bukber-Order adalah program berbasis C yang memungkinkan pengguna untuk melakuka
   - `paket` (jenis paket makanan yang dipilih)
   - `minuman` (jenis minuman yang dipilih)
   - `jumlah` (jumlah pesanan)
-- **Array `daftarPesanan`** untuk menyimpan list pesanan yang berbeda.
-- **Array `daftarJumlahPesanan`** untuk menyimpan daftar pesanan hingga batas maksimal 16 pesanan.
+- **Array `daftarPesanan`** untuk menyimpan daftar pesanan hingga batas maksimal 16 pesanan.
 
 ## Contoh Penggunaan
 ```
