@@ -15,9 +15,9 @@ Pesanan daftarPesanan[MAX_ORDERS];
 int totalJumlahPesanan = 0;
 int totalPesanan = 0;
 
-const hargaPaket[] = {20000, 25000, 28000, 30000, 35000};
-const *namaPaket[] = {"Hemat Berkah", "Nasi Ikan Gurih", "Ayam Nusantara", "Komplit Lezat", "Spesial Bukber"};
-const *namaMinuman[] = {"Teh hangat + 3 butir kurma", "Es jeruk", "Jus limun"};
+int hargaPaket[] = {20000, 25000, 28000, 30000, 35000};
+char *namaPaket[] = {"Hemat Berkah", "Nasi Ikan Gurih", "Ayam Nusantara", "Komplit Lezat", "Spesial Bukber"};
+char *namaMinuman[] = {"Teh hangat + 3 butir kurma", "Es jeruk", "Jus limun"};
 
 // Deklarasi Fungsi
 void menu();
